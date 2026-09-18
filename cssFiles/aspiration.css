@@ -1,0 +1,114 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/*colour for each card heading*/
+h2 {
+    color: #095112
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #2e7d32; /* Green theme for environmental focus */
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*logo*/
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/*links to other page*/
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+/* Add spacing between navigation items */
+.nav-links li {
+    margin-left: 2rem;
+}
+/*link colour*/
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+/*add a bit of hover*/
+.nav-links a:hover {
+    color: #b2dfdb;
+}
+/*add white underline for active links*/
+.nav-links a[class="active"] {
+    border-bottom: 2px solid white;
+}
+
+/* Hero Section */
+.hero {
+    padding: 5rem 0;
+    background-color: #81c784;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Personal Aspirations Page */
+.aspirations-section {
+    padding: 4rem 0;
+}
+/*add box shadow and smoothen when it goes up and down*/
+.aspirations-list {
+    background-color: white;
+    border-radius: 8px;
+    padding: 5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+/*make box move up when hovered*/
+.aspirations-list:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    background-color: #1b5e20;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}

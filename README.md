@@ -2,7 +2,7 @@
 
 A static website promoting zero-waste living, built for enhancing skills in front-end development.
 
-**Live demo:** https://scriver0639.github.io/zero-waste-website/
+**Live demo:** https://scriver0639.github.io/zero-waste-website/htmlFiles/index.html
 
 ![Homepage screenshot](assets/screenshot.png)
 

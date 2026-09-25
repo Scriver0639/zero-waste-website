@@ -4,7 +4,7 @@ A static website promoting zero-waste living, built for enhancing skills in fron
 
 **Live demo:** https://scriver0639.github.io/zero-waste-website/htmlFiles/index.html
 
-![Homepage screenshot](![alt text](image.png))
+![Homepage screenshot](![alt text](images/homepage.png))
 
 ## What I focused on
 
